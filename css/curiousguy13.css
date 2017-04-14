@@ -1,0 +1,68 @@
+/*CSS file for curiousguy13'spersonal website
+
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    display: table;
+    width:100%;
+    min-height:100%;
+}
+
+.content-b {
+    width : 50%;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.profile {
+    display: table;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+}
+
+.not-fullscreen, .not-fullscreen .content-a, .fullscreen.not-overflow, .fullscreen.not-overflow .content-a {
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#header__social {
+    -webkit-animation: shiftDown .5s ease-out;
+    -moz-animation: shiftDown .5s ease-out;
+    animation: shiftDown .5s ease-out;
+}
+
+.header__social__link {
+    border: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: .825em;
+    padding: 7px 0;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    width: 110px;
+}
