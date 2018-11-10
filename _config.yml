@@ -1,0 +1,20 @@
+title: curiousguy13's ramblings
+name: "Kunal's Blog"
+author: Kunal Arora
+#baseurl: "/blog"
+description: Document my learning notes.
+permalink: /:year/:month/:day/:title:output_ext
+future: true
+# Build settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
