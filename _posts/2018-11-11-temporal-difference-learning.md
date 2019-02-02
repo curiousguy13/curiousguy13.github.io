@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Math of Intelligence : Temporal Difference Learning"
-date: 2018-11-11
+date: 2018-11-16
 tags: math-of-intelligence, reinforcement-learning, artificial-intelligence
 ---
 

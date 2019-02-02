@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Math of Intelligence : Dynamic Programming for Markov Decision Process"
-date: 2018-11-11
+date: 2018-11-14
 tags: math-of-intelligence, reinforcement-learning, artificial-intelligence
 ---
 
