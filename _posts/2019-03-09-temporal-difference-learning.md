@@ -62,8 +62,8 @@ $$
          = R_{t+1} + \gamma V(S_{t+1}) - V(S_t)
 $$
 
-TD method convergence proof? - TODO
-Which one converges faster? TD or MC? How do we formalize this question? - TODO
+TD method convergence proof? - TODO \\
+Which one converges faster? TD or MC? How do we formalize this question? - TODO \\
 Similarly for action value function:
 $$
 Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha(R_{t+1} + \gamma Q(S_{t+1}, A_{t+1}) - Q(S_t, A_t))
